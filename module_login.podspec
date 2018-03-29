@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "module_login"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.license      = "MIT"
   s.summary      = "登录模块业务"
   s.homepage     = "https://github.com/liu3399shuai/module_login"
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'module_login/Module.h'
   s.public_header_files = 'module_login/Module.h'
-  
+
 
   s.subspec 'Model' do |ss|
     ss.source_files = 'module_login/{Login,LoginPwd,Register,RegisterPwd}Model.{h,m}'

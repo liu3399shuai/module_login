@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "module_login"
-  s.version      = "0.1.0"
+  s.version      = "0.1.2"
   s.license      = "MIT"
   s.summary      = "登录模块业务"
   s.homepage     = "https://github.com/liu3399shuai/module_login"
@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
-  s.source_files = 'module_login/Module.h'
-  s.public_header_files = 'module_login/Module.h'
+  s.source_files = 'module_login/**/*{h,m}'
+  s.public_header_files = 'module_login/**/*.h'
 
 
   # s.subspec 'Model' do |ss|

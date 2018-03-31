@@ -14,7 +14,7 @@
 #import "LoginView.h"
 #import "LoginViewController.h"
 
-//2
+//0.1.3
 #import "RegisterModel.h"
 #import "RegisterPwdModel.h"
 #import "RegisterStepView.h"
